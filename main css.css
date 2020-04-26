@@ -1,5 +1,6 @@
 body{
 	background-image: url(bgimg.jpg);
+	background-position: all;
 	background-size:auto;
 }
 div{
@@ -25,8 +26,7 @@ a{
 	color: lightblue;
 }
 .div2{
-	margin-left: 20px;
-	margin-top: 250px;
+	margin:30px auto;
 }
 p{
 	font-weight:bolder;
@@ -40,12 +40,12 @@ form{
 	padding:10px 10px;
 	font-weight: bold;
 	font-size: 15px;
+	
 }
-input{
+.bgcolor{
 	width:260px;
-	border:2px solid grey;
+	border:none;
+	border-bottom:2px solid grey;
+	background-color:none;
 	border-radius:10px;
-}
-.btn{
-	border:1px dashed black;
 }
