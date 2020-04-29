@@ -3,45 +3,100 @@ body{
 	background-position: all;
 	background-size:auto;
 }
-div{
-	width: 100%;
-	height: 50px;
 
-}
-
-li{
-	display: inline-block;
-	padding:5px;
-	margin-left: 13px;
-	margin-right: 10px;
-	border:1px solid white;
-	border-radius:20px;
-}
 .div1{
+	height:60px;
+	border: none;
+	border-radius:20px;
+	margin:20px 20px;
 	text-align: right;
 	font-size:20px;
 	background-color: #23282B;
 }
+ul{
+	padding:10px;
+}
+
+li{
+	display: inline-block;
+	padding:5px ;
+	margin-left: 13px;
+	margin-top: auto;
+	margin-right: 10px;
+	border:1px solid white;
+	border-radius:20px;
+	animation: bg  10s infinite;
+}
+
+@keyframes bg{
+	0%{
+		background-color:#504053; 
+	}
+	25%{
+		background-color:black;
+	}
+	
+	50%{
+		background-color:#7E7361;
+	}
+	75%{
+		background-color:#2A2356;
+	}
+	100%{
+		background-color:#070219;
+	}
+
+}
+
 a{
 	color: lightblue;
+	text-decoration: none;
+	animation:random 10s infinite;
 }
+
+@keyframes random{
+	0%{
+		color:lightblue;
+	}
+	25%{
+		color:pink;
+	}
+	50%{
+		color:#E5E095;
+	}
+	75%{
+		color:yellow;
+	}
+	100%{
+		color:white;
+	}
+}
+
+a:hover{
+	text-decoration: none;
+}
+
 .div2{
-	margin:30px auto;
+	margin:30px;
 }
+
 p{
 	font-weight:bolder;
 	font-size: 20px;
 }
+
+
 form{
 	border:3px solid black;
 	border-radius: 10px;
+	padding:10px;
 	width:300px;
-	height:350px;
+	height:430px;
 	padding:10px 10px;
 	font-weight: bold;
-	font-size: 15px;
-	
+	font-size: 20px;
 }
+
 .bgcolor{
 	width:260px;
 	border:none;
